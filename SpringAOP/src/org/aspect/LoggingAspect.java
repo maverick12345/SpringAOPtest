@@ -7,6 +7,6 @@ import org.aspectj.lang.annotation.Before;
 public class LoggingAspect {
 	@Before("execution(public String getName())")
 	public void aspectAdvice() {
-		System.out.println("aspect running...");
+		System.out.println("aspect running.....");
 	}
 }
