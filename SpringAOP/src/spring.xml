@@ -15,7 +15,7 @@
     	<property name="name" value="circle Name"></property>
     </bean>
     <bean name="triangle" class="org.shapes.Triangle">
-    	<property name="name" value="triangle Name"></property>
+    	<property name="name" value="triangle Name is printed here"></property>
     </bean>
 	<bean name="shapeService" class="org.service.ShapeService" autowire="byName">
 	</bean>
