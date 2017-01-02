@@ -10,5 +10,8 @@ public class LoggingAspect {
 		System.out.println("aspect running.....");
 		System.out.println("aspect method is  running");
 		System.out.println("aspect method is  running............");
+		System.out.println("aspect running.....");
+		System.out.println("aspect method is  running");
+		System.out.println("aspect method is  running............");
 	}
 }
